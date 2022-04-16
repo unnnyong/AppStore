@@ -26,11 +26,11 @@ enum Tab: CaseIterable {
     
     var systemImageName: String {
         switch self {
-        case .today: return "1.square.fill"
-        case .game: return "1.square.fill"
-        case .app: return "1.square.fill"
-        case .arcade: return "1.square.fill"
-        case .search: return "1.square.fill"
+        case .today: return "doc.text.image"
+        case .game: return "hare.fill"
+        case .app: return "square.stack.3d.up.fill"
+        case .arcade: return "gamecontroller.fill"
+        case .search: return "magnifyingglass"
         }
     }
     
